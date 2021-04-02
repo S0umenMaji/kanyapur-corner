@@ -1,0 +1,47 @@
+.about h1{
+    text-align: center;
+    font-size: 44px;
+    color: rgb(30 96 150);
+    width: 100%;
+    background-color: #e6ead8;
+}
+ .myimage{
+     height: 200px;
+    width: 200px;
+    /* padding:0px 0px 0px 0px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s;
+    /* border: 1px solid black; */
+    
+    box-shadow:  4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+  }
+  .myimage:hover{
+    box-shadow:  10px 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.5);
+}
+ 
+ .about p{
+     text-align: center;
+     font-size: 18px;
+ }
+ .about h3{
+     text-align: center;
+ }
+ 
+
+.left table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(48, 153, 240);
+    color: white;
+    border-radius: 21px;
+    /* height: 10px; */
+    width: 85px;
+}
+   .socialicon{
+       height:20px;
+       width:20px;
+   }
