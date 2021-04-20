@@ -1,0 +1,127 @@
+.content {
+    /* width: 100%; */
+    /* position: absolute; */
+    top: 50%;
+    /* transform: translateY(-50%); */
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+.content h2{
+    text-align: center;
+    font-size: 44px;
+       color: rgb(30 96 150);
+   /* width: 100%; */
+   /* background-color: #e6ead8; */
+   }
+.conntent p{
+margin: 20px ;
+font-weight: 100;
+line-height: 25px;
+font-size: 25px;
+
+}
+ button{
+     font-size: 14px;
+     /* margin-left: 50%;
+     margin-right: 50%; */
+     /* align-items: center; */
+    width: 200px;
+    left: 55px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    /* background-color: blue; */
+    background: transparent;
+    color: #1b1a1a;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+span{
+    background: rgb(255, 115, 0);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+button:hover span{
+    width:100%;
+}
+button:hover {
+border: 2px solid rgb(255, 81, 0);
+color: white;
+} 
+@media (min-width:1110px) and (max-width:1152px)
+ {
+/* 
+body{
+    background-color: red;
+} */
+.button{
+    /* padding: 1px; */
+    /* margin: 100px */
+    left: 110px;
+}
+}
+/* .middle a{
+    text-decoration: none;
+    color: black;
+}
+.middle a:hover{
+    color: white;
+} */
+@media (min-width:482px) and (max-width:521px)
+ {
+     /* body{
+         background-color: red;
+     } */
+     button{
+         left: 2px;
+         
+
+     }}
+     @media (min-width:802px) and (max-width:856px)
+ {
+     /* body{
+         background-color: red;
+     } */
+     button{
+         left:108px;
+         
+
+     }}
+     @media (min-width:857px) and (max-width:915px)
+ {
+     button{
+         left: 11px;
+     }
+    }
+     @media (min-width:930px) and (max-width:1072px)
+     {
+         button{
+             left: 57px;
+         }
+        }
+        @media (min-width:1153px)
+        {
+            button{
+                left: 200px;
+            }
+        }
+        table a{
+            text-decoration: none;
+            color: red;
+            cursor: pointer;
+        }
+        table a:hover{
+          font-size: 26px;
+          
+        }
