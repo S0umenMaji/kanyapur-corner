@@ -1,0 +1,35 @@
+.year{
+width: 100%;
+top: 50%
+}
+.year h1{
+ text-align: center;
+ font-size: 44px;
+    color: rgb(30 96 150);
+width: 100%;
+background-color: #e6ead8;
+}
+.year p{
+    font-size: 20px;
+    color :red;
+}
+.year p a{
+ color: blueviolet;
+ text-decoration: none;
+ 
+}
+.year p a:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 25px;
+    
+   }
+   .left table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(48, 153, 240);
+    color: white;
+    border-radius: 21px;
+    /* height: 10px; */
+    width: 85px;
+}
